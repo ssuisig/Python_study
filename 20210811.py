@@ -60,21 +60,25 @@ print(y)
 # print("당신의 이름은 %s 입니다."%name)
 
 
-# a = 3
-# b = str(a)
-# print(b*3)
-# name = input("이름을 입력해주세요: ")
-# std_num = input("학번을 입력해주세요: ")
-# print("이름: %s 학번: %s"%(name, std_num))
-# print("이름: ", name,"학번: ", std_num)
+a = 3
+b = str(a)
+print(b*3)
+
+name = input("이름을 입력해주세요: ")
+std_num = input("학번을 입력해주세요: ")
+print("이름: %s 학번: %s"%(name, std_num))
+print("이름:", name,"학번:", std_num)
 
 #몫 구하기
 print(5//3)
+#정수 나누기
 print(5/3)
-#나머지 값
-print(5%3)
 #제곱
 print(5**3)
+
+#나머지 값
+print(5%3)
+
 
 #복합 대입 연산자
 a = 90
@@ -89,10 +93,10 @@ a //= 3
 # print(a, "을(를)", b, "(으)로 나눈 나머지는", d, "입니다.")
 
 #더 짧게
-#a = int(input("나눠지는 수 ==> "))
-#b = int(input("나누는 수 ==> "))
-# print(a, "을(를)", b, "(으)로 나눈 몫은", a//b, "입니다.")
-# print(a, "을(를)", b, "(으)로 나눈 나머지는", a%b, "입니다.")
+a = int(input("나눠지는 수 ==> "))
+b = int(input("나누는 수 ==> "))
+print(a, "을(를)", b, "(으)로 나눈 몫은", a//b, "입니다.")
+print(a, "을(를)", b, "(으)로 나눈 나머지는", a%b, "입니다.")
 
 #비교 연산자
 a = (100 != 10)

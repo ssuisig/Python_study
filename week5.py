@@ -9,6 +9,8 @@
 for i in range(5):
     print("*"*i)
 
+
+
 # 1~30 중 3의 배수만 출력
 for i in range(1, 31, 1):
     if i % 3 == 0:
@@ -131,7 +133,7 @@ print(result)
 i = 1
 result = 0
 for i in range(31, 1, -1):
-    if 30 % i == 0 and 75 % i == 0:
+    if 30 % i == 0 and 60 % i == 0:
         result = i
         break
 print(result)
